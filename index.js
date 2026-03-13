@@ -57,6 +57,7 @@ app.post("/api/resources", (req, res) => {
   console.log("Action ➡️ ", resourceAction);
   console.log("Name ➡️ ", name);
   console.log("Description ➡️ ", description);
+  console.log("Availability ➡️ ", available);
   console.log("Price ➡️ ", price);
   console.log("Price unit ➡️ ", unit);
   console.log("--------------------------");
